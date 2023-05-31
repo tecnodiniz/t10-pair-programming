@@ -1,0 +1,19 @@
+<h1>Loja de produtos seminovos</h1>
+
+<h2>Produtos</h2>
+<table>
+    <tr>
+        <th>Nome</th>
+        <th>Código</th>
+        <th>Altura</th>
+        <th>Peso</th>
+    </tr>
+    <% @products.each do |p|%>
+        <tr>
+            <td>Nome: <%= p.name%></td>
+            <td>Código: <%= p.code%></td>
+            <td>Altura: <%= p.height%></td>
+            <td>Peso: <%= p.weight%></td>
+        </tr>
+    <%end%>
+</table>
