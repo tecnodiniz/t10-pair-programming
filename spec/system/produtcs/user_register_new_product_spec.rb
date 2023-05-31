@@ -19,6 +19,8 @@ describe 'usuário cadastra um produto' do
             expect(page).to have_content "MOG XPDR"
             expect(page).to have_content "20"
             expect(page).to have_content "100"
+        end
+        it  'e vê o produto ao clicar no nome' do 
             
         end
     end
